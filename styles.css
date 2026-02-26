@@ -1,0 +1,84 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration-color: black;
+}
+
+.hoja-vida {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    font-size: 1.2rem;
+}
+
+.barra-izq {
+    background-color: rgb(143, 143, 234);
+    width: 30%;
+    color: white;
+    padding: 20px;
+
+}
+
+.nombre {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.titulo-izq {
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+
+.texto-izq {
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.lista-izq {
+    font-size: 0.85rem;
+    margin-left: 15px;
+    line-height: 1.5;
+}
+
+.contenido-der {
+    width: 70%;
+    padding: 40px;
+    background-color: white;
+    color: black;
+}
+
+.seccion {
+    margin-bottom: 30px;
+}
+
+.titulo-der {
+    font-weight: bold;
+    color: rgb(100, 100, 200);
+    border-bottom: 2px solid rgb(143, 143, 234);
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.contenido-der p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.item {
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+}
+
+strong {
+    display: inline-block;
+    margin-bottom: 3px;
+}
